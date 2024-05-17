@@ -42,7 +42,7 @@ export SENDDBN=${SENDDBN:-NO}
 ####################################
 # Specify Execution Areas
 ####################################
-export HOMEens_tracker=${HOMEens_tracker:-${NWROOT:?}/New_TCtracker}
+export HOMEens_tracker=${HOMEens_tracker:-${NWROOT:?}/tracker_package}
 export EXECens_tracker=${EXECens_tracker:-$HOMEens_tracker/exec}
 export FIXens_tracker=${FIXens_tracker:-$HOMEens_tracker/fix}
 export USHens_tracker=${USHens_tracker:-$HOMEens_tracker/ush}
@@ -67,8 +67,8 @@ if [[ -d /scratch2 ]] ; then
 #  export COMINgfs=/scratch2/NCEPDEV/ensemble/Jiayi.Peng/noscrub/data_4_gfs
 #  export COMINsyn=${COMINsyn:-${COMROOTp1}/arch/prod/syndat}
 #  export COMINsyn=/scratch1/NCEPDEV/hwrf/noscrub/input/SYNDAT
-  export COMINsyn=/scratch2/NCEPDEV/ensemble/Jiayi.Peng/noscrub/MetTCData/TCvital
-  export COMINgfs=/scratch2/NCEPDEV/ensemble/Jiayi.Peng/noscrub/ptmp/gfs.${PDY}
+  export COMINsyn=/scratch2/NCEPDEV/ovp/Hana.Jafary/Input/TCvital
+  export COMINgfs=/scratch2/NCEPDEV/ovp/Hana.Jafary/Input/gfs.${PDY}
 
 elif [[ -d /work ]] ; then
   # We are on MSU Orion
