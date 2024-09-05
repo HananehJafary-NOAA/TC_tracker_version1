@@ -67,8 +67,8 @@ if [[ -d /scratch2 ]] ; then
 #  export COMINgfs=/scratch2/NCEPDEV/ensemble/Jiayi.Peng/noscrub/data_4_gfs
 #  export COMINsyn=${COMINsyn:-${COMROOTp1}/arch/prod/syndat}
 #  export COMINsyn=/scratch1/NCEPDEV/hwrf/noscrub/input/SYNDAT
-  export COMINsyn=/scratch2/NCEPDEV/ensemble/Jiayi.Peng/noscrub/MetTCData/TCvital
-  export COMINgfs=/scratch2/NCEPDEV/ensemble/Jiayi.Peng/noscrub/ptmp/gfs.${PDY}
+  export COMINsyn=/scratch2/NCEPDEV/ovp/Hana.Jafary/Input/TCvital
+  export COMINgfs=/scratch2/NCEPDEV/ovp/Hana.Jafary/Input/gfs.${PDY}
 
 elif [[ -d /work ]] ; then
   # We are on MSU Orion
