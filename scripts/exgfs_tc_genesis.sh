@@ -100,7 +100,7 @@ if [[ -d /scratch2 ]] ; then
   machine=hera
   ${USHens_tracker}/extrkr_gen_gfs.sh ${loopnum} ${cmodel} ${pert} ${pertdir} #2>&1 >${outfile}
 
-elif [[ -d /work ]] ; then
+elif [[ -d /work2 ]] ; then
   # We are on MSU Orion
   machine=orion
   ${USHens_tracker}/extrkr_gen_gfs.sh ${loopnum} ${cmodel} ${pert} ${pertdir} #2>&1 >${outfile}
